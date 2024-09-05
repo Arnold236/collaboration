@@ -4,6 +4,7 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import Arnold from './pages/Arnold'
 import Lethabo from './pages/Lethabo'
 import Gift from './pages/Gift'
+import Una from './pages/Unarine'
 import Navbar from './components/Navbar'
 import Home from './pages/Home'
 import Footer from './components/Footer'
@@ -20,6 +21,7 @@ function App() {
         <Route path="/arnold" element={<Arnold />} />
         <Route path="/lethabo" element={<Lethabo />} />
         <Route path="/gift" element={<Gift />} />
+        <Route path="/Unarine" element={<Una/>}/>
         <Route path="/contact" element={<Arnold />} />
       </Routes>
       <Footer/>
