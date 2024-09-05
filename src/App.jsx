@@ -2,6 +2,7 @@ import { useState } from 'react'
 
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import Arnold from './pages/Arnold'
+import Lethabo from './pages/Lethabo'
 import Navbar from './components/Navbar'
 import Home from './pages/Home'
 import Footer from './components/Footer'
@@ -16,6 +17,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/arnold" element={<Arnold />} />
+        <Route path="/lethabo" element={<Lethabo />} />
         <Route path="/contact" element={<Arnold />} />
       </Routes>
       <Footer/>
