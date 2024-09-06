@@ -6,6 +6,7 @@ import Lethabo from './pages/Lethabo'
 import Gift from './pages/Gift'
 import Una from './pages/Unarine'
 import Karabo from './pages/Karabo'
+import Mpho from './pages/Mpho'
 import Navbar from './components/Navbar'
 import Home from './pages/Home'
 import Footer from './components/Footer'
@@ -23,6 +24,7 @@ function App() {
         <Route path="/lethabo" element={<Lethabo />} />
         <Route path="/gift" element={<Gift />} />
         <Route path="/Unarine" element={<Una/>}/>
+        <Route path="/mpho" element={<Mpho/>}/>
         <Route path="/Karabo" element={<Karabo/>}/>
         <Route path="/contact" element={<Arnold />} />
       </Routes>
