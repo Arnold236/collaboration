@@ -1,16 +1,16 @@
 import { useState } from 'react';
-import { BrowserRouter, Route, Routes } from 'react-router-dom'
-import Arnold from './pages/Arnold'
-import Lethabo from './pages/Lethabo'
-import Gift from './pages/Gift'
-import Una from './pages/Unarine'
-import Navbar from './components/Navbar'
-import Home from './pages/Home'
-import Footer from './components/Footer'
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import Arnold from './pages/Arnold';
+import Lethabo from './pages/Lethabo';
+import Gift from './pages/Gift';
+import Una from './pages/Unarine';
+import Navbar from './components/Navbar';
+import Home from './pages/Home';
+import Footer from './components/Footer';
 import Mpho from './pages/Mpho';
 
 function App() {
-  const [count, setCount] = useState(0)
+  const [count, setCount] = useState(0);
 
   return (
     <BrowserRouter>
@@ -26,7 +26,7 @@ function App() {
       </Routes>
       <Footer />
     </BrowserRouter>
-  )
+  );
 }
 
-export default App
+export default App;
