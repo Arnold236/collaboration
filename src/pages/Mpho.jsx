@@ -1,4 +1,4 @@
-import image from '/src/assets/images/mpho.jpg'
+
 const Mpho = () => {
   return (
     <div className="grid grid-cols-2 p-5">
@@ -29,7 +29,7 @@ const Mpho = () => {
              creative problem-solver who works well in teams.<br></br> I have skills in programming, web development, 
              and design</p>
              <p className=''>
-                <img src={image} alt="MPhO" className='w-32 h-32 rounded-none mb3'/>
+                
              </p>
         </div>
       
