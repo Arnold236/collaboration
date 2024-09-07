@@ -10,6 +10,7 @@ import Mpho from './pages/Mpho'
 import Navbar from './components/Navbar'
 import Home from './pages/Home'
 import Footer from './components/Footer'
+import Carswell from './pages/Carswell'
 
 
 function App() {
@@ -27,6 +28,7 @@ function App() {
         <Route path="/mpho" element={<Mpho/>}/>
         <Route path="/Karabo" element={<Karabo/>}/>
         <Route path="/contact" element={<Arnold />} />
+        <Route path="/carswel" element={<Carswell />} />
       </Routes>
       <Footer/>
     </BrowserRouter>
