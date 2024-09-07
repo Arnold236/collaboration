@@ -3,6 +3,7 @@
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import Arnold from './pages/Arnold'
 import Lethabo from './pages/Lethabo'
+import Carswel from './pages/Carswel'
 import Gift from './pages/Gift'
 import Una from './pages/Unarine'
 import Karabo from './pages/Karabo'
@@ -23,6 +24,7 @@ function App() {
         <Route path="/arnold" element={<Arnold />} />
         <Route path="/lethabo" element={<Lethabo />} />
         <Route path="/gift" element={<Gift />} />
+        <Route path="/Carswel" element={<Carswel />} />
         <Route path="/Unarine" element={<Una/>}/>
         <Route path="/mpho" element={<Mpho/>}/>
         <Route path="/Karabo" element={<Karabo/>}/>
