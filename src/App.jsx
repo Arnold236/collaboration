@@ -9,6 +9,7 @@ import Carswel from './pages/Carswel'
 import Una from './pages/Unarine'
 import Karabo from './pages/Karabo'
 import Mpho from './pages/Mpho'
+import Siya from './pages/Siya'
 import Navbar from './components/Navbar'
 import Home from './pages/Home'
 import Footer from './components/Footer'
@@ -30,6 +31,7 @@ function App() {
         <Route path="/Unarine" element={<Una/>}/>
         <Route path="/mpho" element={<Mpho/>}/>
         <Route path="/Karabo" element={<Karabo/>}/>
+        <Route path="/Siya" element={<Siya/>}/>
         <Route path="/contact" element={<Arnold />} />
       </Routes>
       <Footer/>
