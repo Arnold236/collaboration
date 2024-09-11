@@ -1,4 +1,4 @@
-import image from '/src/assets/images/mpho.jpg'
+//import image from '/src/assets/images/mpho.jpg'
 const Mpho = () => {
   return (
     <div className="grid grid-cols-2 p-5">
