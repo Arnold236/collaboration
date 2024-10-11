@@ -27,7 +27,7 @@ const Lethabo = () => {
                         </tr>
                         <tr>
                             <td className="border p-2">Node.js</td>
-                            <td className="border p-2">Improving</td>
+                            <td className="border p-2">PRO</td>
                         </tr>
                         <tr>
                             <td className="border p-2">Python</td>
