@@ -13,7 +13,7 @@ import Siya from './pages/Siya'
 import Navbar from './components/Navbar'
 import Home from './pages/Home'
 import Footer from './components/Footer'
-
+import Betty from './pages/Betty'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -32,6 +32,7 @@ function App() {
         <Route path="/mpho" element={<Mpho/>}/>
         <Route path="/Karabo" element={<Karabo/>}/>
         <Route path="/Siya" element={<Siya/>}/>
+        <Route path="/betty" element={<Betty />} /> 
         <Route path="/contact" element={<Arnold />} />
       </Routes>
       <Footer/>
