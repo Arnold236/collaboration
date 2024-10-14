@@ -13,6 +13,8 @@ import Siya from './pages/Siya'
 import Navbar from './components/Navbar'
 import Home from './pages/Home'
 import Footer from './components/Footer'
+import ShowingBettyAndChristinahGit from "./pages/ShowingBettyAndChristinahGit"
+
 
 
 function App() {
@@ -31,8 +33,10 @@ function App() {
         <Route path="/Unarine" element={<Una/>}/>
         <Route path="/mpho" element={<Mpho/>}/>
         <Route path="/Karabo" element={<Karabo/>}/>
+        <Route path="/git" element={<ShowingBettyAndChristinahGit />} />
         <Route path="/Siya" element={<Siya/>}/>
         <Route path="/contact" element={<Arnold />} />
+        
       </Routes>
       <Footer/>
     </BrowserRouter>
