@@ -14,6 +14,8 @@ import Navbar from './components/Navbar'
 import Home from './pages/Home'
 import Footer from './components/Footer'
 import ShowingBettyAndChristinahGit from "./pages/ShowingBettyAndChristinahGit"
+import Chrissie from './pages/Chrissie'
+
 
 
 
@@ -36,6 +38,7 @@ function App() {
         <Route path="/git" element={<ShowingBettyAndChristinahGit />} />
         <Route path="/Siya" element={<Siya/>}/>
         <Route path="/contact" element={<Arnold />} />
+        <Route path="/Chrissie"element={<Chrissie/>} />
         
       </Routes>
       <Footer/>

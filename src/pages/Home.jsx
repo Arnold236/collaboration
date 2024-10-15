@@ -21,6 +21,8 @@ function Home() {
       <Link className='text-2xl text-pink-500' to="/Priscilla">Priscilla</Link>
       <Link className='text-2xl text-blue-500' to="/Siya">Siya</Link>
       <Link className='text-2xl text-purple-400' to="/Unarine">Unarine</Link>
+      <Link className='text-2xl text-purple-400' to="/Unarine">Chrissie</Link>
+
 
       </div>
 
