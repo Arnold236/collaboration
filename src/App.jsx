@@ -1,5 +1,4 @@
- import { useState } from 'react'
-
+import { useState } from 'react'
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import Arnold from './pages/Arnold'
 import Lethabo from './pages/Lethabo'
@@ -13,13 +12,8 @@ import Siya from './pages/Siya'
 import Navbar from './components/Navbar'
 import Home from './pages/Home'
 import Footer from './components/Footer'
-
 import Betty from './pages/Betty'
-
 import ShowingBettyAndChristinahGit from "./pages/ShowingBettyAndChristinahGit"
-
-
-
 
 function App() {
   const [count, setCount] = useState(0)
@@ -41,7 +35,6 @@ function App() {
         <Route path="/Siya" element={<Siya/>}/>
         <Route path="/betty" element={<Betty />} /> 
         <Route path="/contact" element={<Arnold />} />
-        
       </Routes>
       <Footer/>
     </BrowserRouter>
