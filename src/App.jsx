@@ -15,6 +15,7 @@ import Footer from './components/Footer'
 import Betty from './pages/Betty'
 import Lisakhanya from './pages/Lisakhanya'
 import ShowingBettyAndChristinahGit from "./pages/ShowingBettyAndChristinahGit"
+import Mukona from './pages/Mukona'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -29,16 +30,17 @@ function App() {
         <Route path="/lethabo" element={<Lethabo />} />
         <Route path="/gift" element={<Gift />} />
         <Route path="/Carswel" element={<Carswel />} />
-        <Route path="/Unarine" element={<Una/>}/>
-        <Route path="/mpho" element={<Mpho/>}/>
-        <Route path="/Karabo" element={<Karabo/>}/>
+        <Route path="/Unarine" element={<Una />} />
+        <Route path="/mpho" element={<Mpho />} />
+        <Route path="/Karabo" element={<Karabo />} />
         <Route path="/git" element={<ShowingBettyAndChristinahGit />} />
-        <Route path="/Siya" element={<Siya/>}/>
-        <Route path="/betty" element={<Betty />} /> 
+        <Route path="/Siya" element={<Siya />} />
+        <Route path="/betty" element={<Betty />} />
         <Route path="/contact" element={<Arnold />} />
         <Route path="/Lisakhanya" element={<Lisakhanya />} />
+        <Route path="/mukona" element={<Mukona />} />
       </Routes>
-      <Footer/>
+      <Footer />
     </BrowserRouter>
 
   )
