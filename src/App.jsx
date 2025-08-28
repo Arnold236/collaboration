@@ -13,6 +13,7 @@ import Navbar from './components/Navbar'
 import Home from './pages/Home'
 import Footer from './components/Footer'
 import Betty from './pages/Betty'
+import Lisakhanya from './pages/Lisakhanya'
 import ShowingBettyAndChristinahGit from "./pages/ShowingBettyAndChristinahGit"
 
 function App() {
@@ -35,6 +36,7 @@ function App() {
         <Route path="/Siya" element={<Siya/>}/>
         <Route path="/betty" element={<Betty />} /> 
         <Route path="/contact" element={<Arnold />} />
+        <Route path="/Lisakhanya" element={<Lisakhanya />} />
       </Routes>
       <Footer/>
     </BrowserRouter>
