@@ -24,15 +24,9 @@ function Home() {
         <Link className='text-2xl text-orange-500' to="/betty">Betty</Link>
         <Link className='text-2xl text-blue-400' to="/Lisakhanya">Lisakhanya</Link>
         <Link className='text-2xl text-indigo-500' to="/Mukona">Mukona</Link>
-
-
+        <Link className='text-2xl text-gray-600' to="/hlakaniphani">Hlakaniphani</Link>
       </div>
-
-
     </div>
-
-
-
   )
 }
 

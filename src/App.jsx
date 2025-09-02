@@ -16,6 +16,7 @@ import Betty from './pages/Betty'
 import Lisakhanya from './pages/Lisakhanya'
 import ShowingBettyAndChristinahGit from "./pages/ShowingBettyAndChristinahGit"
 import Mukona from './pages/Mukona'
+import Hlakaniphani from './pages/hlakaniphani'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -39,6 +40,7 @@ function App() {
         <Route path="/contact" element={<Arnold />} />
         <Route path="/Lisakhanya" element={<Lisakhanya />} />
         <Route path="/mukona" element={<Mukona />} />
+        <Route path="/hlakaniphani" element={<Hlakaniphani />} />
       </Routes>
       <Footer />
     </BrowserRouter>
